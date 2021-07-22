@@ -70,6 +70,6 @@ function displayMessage(msgText, msgType) {
 
 const btn = document.querySelector('button');
 btn.onclick = function() {
-  displayMessage('Brian: Hi there, how are you today?', 'chat');
-  // displayMessage('Your inbox is almost full -- delete some emails', 'warning');
+  // displayMessage('Brian: Hi there, how are you today?', 'chat');
+  displayMessage('Your inbox is almost full -- delete some emails', 'warning');
 };
