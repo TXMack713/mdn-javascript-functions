@@ -31,7 +31,7 @@ let x = 50;
 let y = 60;
 let width = 100;
 let height = 75;
-let color = 'blue';
+let color = rgb(Math.floor(Math.random()*255), Math.floor(Math.random()*255), Math.floor(Math.random()*255));
 
 // Add your code here
 ctx.beginPath();
